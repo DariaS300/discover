@@ -12,9 +12,18 @@
     }
     nav a{
         text-align: center;
-        padding: 56px 0;
+        padding: 40px 0;
     }
+    .home{
+        min-height: auto;
+        padding: 50px 0;
+    }
+    .home-title{
+        font-size: 34px;
+    }
+
 }
+
 @media(max-width:800px){
     .mini-menu{
         display: block;
@@ -41,5 +50,12 @@
     nav a:hover{
     background: rgba(89, 196, 90, 0.6);
     color: var(--grey);
+    }
+    .home-title{
+        font-size: 28px;
+    }
+    header .container{
+        padding-left: 0;
+        padding-right: 0;
     }
 }

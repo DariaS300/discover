@@ -84,3 +84,58 @@ header .container{
 .mini-menu {
     display: none;
 }
+
+.hero-text {
+    text-align: center;
+  }
+  
+.hero-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+.hero-text .description p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+.hero-text .tagline {
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+.home {
+    min-height: 900px;
+    background: linear-gradient(rgba(67, 59, 59, 0.392), rgba(67, 59, 59, 0.392)),
+    url(../Img/bk.jpg) center/cover fixed;
+    color: var(--white);
+  }
+.home-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: inherit;
+  }
+.home-title{
+    font-size: 38px;
+    font-weight: 50px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+.hero-text{
+    max-width: 1000px;
+    margin: 30px auto 60px;
+  }
+
+.home-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--green);
+    color: var(--white);
+    font-size: 18px;
+    padding: 22px 32px;
+    font-weight: bold;
+    border-radius: 5px;
+}
