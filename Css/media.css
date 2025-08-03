@@ -25,9 +25,8 @@
         cursor: pointer;
         color: var(--white);
         font-size: 18px;
-        font-weight: 900;
+        font-weight: bold;
         text-transform: uppercase;
-        outline: none;
     }
     nav ul{
         flex-direction: column;
