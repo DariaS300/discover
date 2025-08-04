@@ -21,6 +21,18 @@
     .home-title{
         font-size: 34px;
     }
+    .fav-container{
+        flex-direction: column;
+    }
+    .fav-item{
+        width: 100%;
+    }
+    .fav-text{
+        width: 100%;
+    }
+    .fav-img{
+        width: 28%;
+    }
 
 }
 
@@ -57,5 +69,16 @@
     header .container{
         padding-left: 0;
         padding-right: 0;
+    }
+}
+@media(max-width:800px){
+    .fav-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fav-img{
+        width: 70%;
+        margin: 0 auto;
+        
     }
 }
