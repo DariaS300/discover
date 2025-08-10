@@ -205,3 +205,71 @@ header .container{
     color: var(--darkgrey);
     line-height: 25px;
 }
+.service{
+    display: flex;
+    background: #efeeee;
+
+}
+.service-slider{
+    width: 50%;
+    position: relative;
+}
+.icon{
+    width: 35px;   /* Новая ширина */
+    height: 35px;  /* Новая высота */
+}
+
+.slide-img{
+    width: 700px;   /* Новая ширина */
+    height: 600px;
+    object-fit: cover;    /* Обрезает лишнее, сохраняя пропорции */
+    object-position: center;  /* Новая высота */
+}
+
+.slick-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background: #bbcfcf;
+    border-radius: 50%;
+    margin: 0 6px;
+    outline: none;
+}
+.slick-active button{
+    background: white;
+}
+.service-block{
+    width: 50%;
+    padding: 50px 0;
+}
+.service-container{
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 60px auto 0;
+}
+.service-item{
+    width: 48%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.service-item p{
+    font-size: 14px;
+    color: var(--lightgrey);
+    line-height: 24px;
+    text-align: left;
+    margin: 25px 0 0;
+}
