@@ -273,3 +273,37 @@ header .container{
     text-align: left;
     margin: 25px 0 0;
 }
+.tours{
+    padding: 100px 0;
+    text-align: center;
+}
+.tours-container{
+    flex-wrap: wrap;
+    margin: 75px auto;
+}
+.tours-container a{
+    flex: 0 24%;
+    margin-bottom: 2%;
+}
+.tours-container a img{
+    display: block;
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+}
+.more{
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--green);
+    font-size: 18px;
+    padding: 22px 32px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(89, 196, 90, 0.65);
+}
+.more:hover{
+    box-shadow: none;
+}
