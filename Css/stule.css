@@ -291,6 +291,14 @@ header .container{
     width: 100%;
     height: auto;
 }
+.tours-container img{
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.tours-container img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
 .more{
     cursor: pointer;
     border: none;

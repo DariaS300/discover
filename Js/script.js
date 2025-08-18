@@ -3,7 +3,7 @@ $(function() {
     // Меню
     $('.mini-menu').click(function() {
         $('nav ul').slideToggle();
-    }); // <- Добавлена ;
+    }); 
 
     // Слайдер
     $('.service-slider').slick({
@@ -16,9 +16,8 @@ $(function() {
                 centerMode: true
             }
         }]
-    }); // <- Добавлена ;
+    }); 
 
-    // Fancybox
     Fancybox.bind("[data-fancybox='tour']", {
         Thumbs: false,
         Toolbar: true,
@@ -28,4 +27,5 @@ $(function() {
             wheel: 'zoom'
         }
     });
-}); // <- Закрывающая скобка для document.ready
+    AOS.init();
+}); 
