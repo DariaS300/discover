@@ -123,3 +123,8 @@
         flex: 0 100%;
     }
 }
+@media(max-width:450px){
+    .contacts{
+        padding: 100px 0
+    }
+}
